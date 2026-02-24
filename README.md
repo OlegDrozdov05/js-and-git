@@ -13,3 +13,12 @@ git restore - remove unstaged file's changes
 git rm - delete file  
 git rm --cached  - delete file from indexation   
 git mv - rename the file (when its in the staging area)  
+git remote  
+git remote -v  - адрес   
+git remote add "shortname" "url"  
+git fetch - git pull, но не сливает данные  
+git push origin main
+git push -u origin main - upstream (ветка по умолч для последующих push и pull)   
+git remote show origin  
+git remote rename   
+git remote rm  
