@@ -1,40 +1,46 @@
-Js and git studying test  
-  
-git init  
-git add .  
+# Js and git practice repo (mostly git)
+
+## Basics/Common commands  
+git init - initialise git repository  
+git add . - a  
 git remote add origin  
-git commit -m  
+git commit -m 
 git commit  --ammend  
-git log  
-git status  
+git log - show commit history  
+git status  - show status of current branch
 git diff  - file diff  
 git restore --staged - remove modified file from indexation (keep the file modified)  
 git restore - remove unstaged file's changes  
 git rm - delete file  
 git rm --cached  - delete file from indexation   
 git mv - rename the file (when its in the staging area)  
+
+## Remote repository  
 git remote  
-git remote -v  - адрес   
+git remote -v  - adress   
 git remote add "shortname" "url"  
-git fetch - git pull, но не сливает данные  
+git fetch - git pull without merging
 git push origin main
-git push -u origin main - upstream (ветка по умолч для последующих push и pull)   
+git push -u origin main - upstream (set default branch for future push и pull???)
+git pull origin main   
 git remote show origin  
 git remote rename   
 git remote rm  
 
+## Tags  
 git tag  
 git tag -a  
 git tag  -m  
 Теги могут быть легковесными и аннотированными
 git show  
-git tag -a v1.2 (контрольная сумма коммита)  
+git tag -a v1.2 control_sum_of_a_commit  
 git push origin tagname  
 git push origin --tags  
 git tag -d tagname   
 git checkout tagname  
 git config --global alias.ci commit  
-
+  
+## Branches  
 git branch  
 git branch name  
 git checkout name  
