@@ -22,3 +22,15 @@ git push -u origin main - upstream (ветка по умолч для после
 git remote show origin  
 git remote rename   
 git remote rm  
+
+git tag  
+git tag -a  
+git tag  -m  
+Теги могут быть легковесными и аннотированными
+git show  
+git tag -a v1.2 (контрольная сумма коммита)  
+git push origin tagname  
+git push origin --tags  
+git tag -d tagname   
+git checkout tagname  
+git config --global alias.ci commit  
