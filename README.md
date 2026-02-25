@@ -26,6 +26,7 @@ git pull origin main
 git remote show origin  
 git remote rename   
 git remote rm  
+git clone url
 
 ## Tags  
 git tag  
@@ -51,3 +52,8 @@ git branch -v - show last commit of each branch
 git branch --merged/--no-merged - show merged/not merged branches  
 git branch --move old-name new-name  (dangerous command) after this do -> git push --set-upstream origin new-name  
 after this do git push origin --delete old-name  
+
+git checkout -b serverfix origin/serverfix - local branch made from remote one  
+git branch -u origin/serverfix   - current branch tracks updates from origin/serverfix  
+git branch -vv - see settings of branches  
+git push origin --delete serverfix - delete remote branch  
