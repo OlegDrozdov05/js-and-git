@@ -6,6 +6,7 @@ git add . - a
 git remote add origin  
 git commit -m 
 git commit  --ammend  
+git commit -a -m 
 git log - show commit history  
 git status  - show status of current branch
 git diff  - file diff  
