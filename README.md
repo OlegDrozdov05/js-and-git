@@ -34,3 +34,10 @@ git push origin --tags
 git tag -d tagname   
 git checkout tagname  
 git config --global alias.ci commit  
+
+git branch  
+git branch name  
+git checkout name  
+git checkout -b name  
+git merge name  
+git branch -d name  
