@@ -1,1 +1,3 @@
 This file was made on GitHub to test git fetch 
+
+hi im from Visual Studio Code i got your file through git fetch
