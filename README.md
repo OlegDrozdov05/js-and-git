@@ -41,3 +41,7 @@ git checkout name
 git checkout -b name  
 git merge name  
 git branch -d name  
+git branch -v - show last commit of each branch  
+git branch --merged/--no-merged - show merged/not merged branches  
+git branch --move old-name new-name  (dangerous command) after this do -> git push --set-upstream origin new-name  
+after this do git push origin --delete old-name  
