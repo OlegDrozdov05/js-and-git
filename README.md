@@ -58,3 +58,8 @@ git checkout -b serverfix origin/serverfix - local branch made from remote one
 git branch -u origin/serverfix   - current branch tracks updates from origin/serverfix  
 git branch -vv - see settings of branches  
 git push origin --delete serverfix - delete remote branch  
+
+## Rebase
+git rebase main  
+git rebase --onto main server client  
+git rebase basebranch topicbranch
